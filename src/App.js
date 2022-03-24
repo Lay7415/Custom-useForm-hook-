@@ -1,9 +1,10 @@
+import { RegisterPage } from './containers/RegisterPage/RegisterPage';
 import './App.css';
 
-function App() {
+export const App =()=> {
   return (
-    <div className="App"/>
+    <div className="App">
+      <RegisterPage/>
+    </div>
   );
 }
-
-export default App;
