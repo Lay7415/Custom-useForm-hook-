@@ -1,9 +1,8 @@
 import { RegisterPage } from './containers/RegisterPage/RegisterPage';
-import './App.css';
-
+import classes from './App.module.css'
 export const App =()=> {
   return (
-    <div className="App">
+    <div className={classes.app}>
       <RegisterPage/>
     </div>
   );

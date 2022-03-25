@@ -1,0 +1,10 @@
+.app {
+    background-image: url('./images/girl.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
