@@ -1,6 +1,5 @@
 import { useState } from "react"
 
-
 export const UseFormHookInput =(props)=> {
     const { 
         labelClassName,
@@ -48,7 +47,6 @@ export const UseFormHookInput =(props)=> {
             className={eyeClassName} alt=""
             />
         }
-        
         </div>
         {error !== '' && <p className={errorClassName}>{error}</p>}
     </div>
