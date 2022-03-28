@@ -1,9 +1,12 @@
-import { RegisterPage } from './containers/RegisterPage/RegisterPage';
 import classes from './App.module.css'
+import {SignIn} from './containers/RegisterPage/SignIn'
+import {SignUp} from './containers/RegisterPage/SignUp'
+
 export const App =()=> {
   return (
     <div className={classes.app}>
-      <RegisterPage/>
+      <SignIn/>
+      <SignUp/>
     </div>
   );
 }
