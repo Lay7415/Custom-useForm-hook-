@@ -1,9 +1,12 @@
-import './App.css';
+import classes from './App.module.css'
+import {SignIn} from './containers/RegisterPage/SignIn'
+import {SignUp} from './containers/RegisterPage/SignUp'
 
-function App() {
+export const App =()=> {
   return (
-    <div className="App"/>
+    <div className={classes.app}>
+      <SignIn/>
+      <SignUp/>
+    </div>
   );
 }
-
-export default App;
